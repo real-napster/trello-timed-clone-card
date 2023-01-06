@@ -13,5 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run script
-        run: pip install trello 
-        run: python trello_checkliste.py
+        run: |
+              pip install trello 
+              python trello_checkliste.py

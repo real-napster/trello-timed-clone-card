@@ -1,4 +1,7 @@
 name: ResetTask
+env:
+    API_KEY: ${{ secrets.API_KEY }}
+    TOKEN: ${{ secrets.TOKEN }}
 
 on:
   schedule:

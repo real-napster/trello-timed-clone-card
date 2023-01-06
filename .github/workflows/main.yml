@@ -1,0 +1,17 @@
+name: ResetTask
+
+on:
+  schedule:
+    #- cron: '55 23 * * SUN'
+    # - cron: '30 01 * * *'
+    #- cron: '*/5 * * * *'
+    - cron: '0 * * * *'
+
+jobs:
+  run_script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run script
+        run: pip install trello 
+        run: python trello_checkliste.py

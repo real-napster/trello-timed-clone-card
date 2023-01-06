@@ -15,4 +15,5 @@ jobs:
       - name: Run script
         run: |
               pip install trello 
+              pip install python-dotenv
               python trello_checkliste.py

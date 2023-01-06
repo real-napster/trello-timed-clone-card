@@ -1,0 +1,16 @@
+{
+    "name": "Trello Timed Clone Card",
+    "version": "1.0",
+    "author": "Benjamin Wiens",
+    "description": "Dieses PowerUp kopiert eine Karte samt Checkliste und löscht die alte Karte. Diese geschieht Zeitgesteuert.",
+    "homepageUrl": "https://benwiens.de",
+    "privacyUrl": "https://benwiens.de/datenschutz",
+    "capabilities": [
+      {
+        "type": "settings",
+        "url": "https://github.com/real-napster/trello-timed-clone-card/blob/master/settings.html",
+        "height": 500,
+        "width": 500
+      }
+    ]
+  }
